@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/img/board.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.test {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+p {
+  font-size: 25px;
+  margin-bottom: 2px;
+}
+
+button {
+  background-color: rgb(237, 243, 160);
+  margin-top: 60px;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+input {
+  font-size: 20px;
+}
+
+.wrapper {
+  text-align: center;
+}
